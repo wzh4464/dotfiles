@@ -22,11 +22,10 @@ if [ ! -d ~/.tmux/plugins/tpm ]; then
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
-# Install tmux plugins
-echo "Installing tmux plugins..."
-~/.tmux/plugins/tpm/bin/install_plugins
-
 echo ""
 echo "✓ Dotfiles installation complete!"
 echo ""
-echo "Start a new tmux session or reload with: tmux source ~/.tmux.conf"
+echo "Next steps:"
+echo "  1. Start tmux: tmux"
+echo "  2. Install plugins: press prefix + I (Alt-Space + I)"
+echo "  Or just start tmux - plugins will auto-install on first run."
